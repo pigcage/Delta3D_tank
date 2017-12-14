@@ -38,7 +38,7 @@ public:
 	//Keyboard onclick events
 	virtual bool KeyPressed(const Keyboard* keyboard, int kc){
 
-		cout<<"something"<<k++<<endl;
+		cout<<"a key is pressed"<<k++<<endl;
 
 
 		if(keyboard->GetKeyState(osgGA::GUIEventAdapter::KEY_Up)||keyboard->GetKeyState(osgGA::GUIEventAdapter::KEY_Down)||keyboard->GetKeyState(osgGA::GUIEventAdapter::KEY_Left)||keyboard->GetKeyState(osgGA::GUIEventAdapter::KEY_Right||kc==osgGA::GUIEventAdapter::KEY_Up||kc==osgGA::GUIEventAdapter::KEY_Down||kc==osgGA::GUIEventAdapter::KEY_Left||kc==osgGA::GUIEventAdapter::KEY_Right)){
